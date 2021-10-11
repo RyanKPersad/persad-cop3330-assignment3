@@ -12,6 +12,6 @@ class ProductSearch{
 
 
 }
-Base <--Generate
+Base <--ProductSearch
 
 @enduml
