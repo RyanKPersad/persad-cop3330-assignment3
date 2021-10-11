@@ -1,0 +1,17 @@
+@startuml
+class Base {
++main()
+
+}
+class ProductSearch{
++String Output
++String Input
++Int Flag
+
++String FindProduct()
+
+
+}
+Base <--Generate
+
+@enduml

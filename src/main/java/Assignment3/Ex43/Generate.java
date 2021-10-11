@@ -1,4 +1,4 @@
-package Ex43;
+package Assignment3.Ex43;
 import java.io.*;
 
 public class Generate {
