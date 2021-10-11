@@ -1,4 +1,4 @@
-package Ex43;
+package Assignment3.Ex43;
 
 import org.junit.jupiter.api.Test;
 
@@ -47,7 +47,7 @@ class GenerateTest {
     @Test
     void createCSSFolder_works() {
 
-      //Use the function and save the return value.
+        //Use the function and save the return value.
         Generate g = new Generate();
 
         g.path = "src/main/java/ex43/";

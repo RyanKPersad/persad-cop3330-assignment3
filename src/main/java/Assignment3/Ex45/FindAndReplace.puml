@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/class-diagram
+class Base {
++main()
+
+}
+class FindAndReplace{
++String FileName
++String Word1
++String Word2
++Will take in input for words to replace in file
++Will make output file
+
+
+
+}
+Base <--FindAndReplace
+
+@enduml

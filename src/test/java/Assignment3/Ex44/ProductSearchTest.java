@@ -1,4 +1,4 @@
-package Ex44;
+package Assignment3.Ex44;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
