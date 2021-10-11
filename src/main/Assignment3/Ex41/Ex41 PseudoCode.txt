@@ -1,0 +1,30 @@
+This program will count the number of names in a file and sort alphabetically
+
+Public class Output{
+
+Public Static int CountNames(){
+
+Take in input file
+Loop to count the number of lines in file.
+
+
+
+}
+
+}
+
+Public class NameSort{
+
+Public Static Reader Sorting(){
+
+Takes in input file
+Turns input file contents into array
+Utilizes Collection Sort
+Creates output file
+Calls Countnames
+Outputs new file  
+
+
+}
+
+}

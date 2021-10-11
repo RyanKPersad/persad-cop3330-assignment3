@@ -1,0 +1,20 @@
+@startuml
+class Base {
++main()
+
+}
+class Generate{
++String siteName
++String author
++String path
+
++String createWebsite()
++String createJSFolder()
++String createCSSFolder()
++String createHTML()
+
+
+}
+Base <--Generate
+
+@enduml

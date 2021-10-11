@@ -1,0 +1,13 @@
+@startuml
+
+class Details{
+-Takes input file
+-Spaces out and organizes into columns
+}
+
+Details --> Main
+
+
+
+
+@enduml

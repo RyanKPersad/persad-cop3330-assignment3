@@ -1,0 +1,16 @@
+This program will take in a input file and organize it and space it out into columns
+
+
+Public Class ParseFiles{
+
+Public void Details(String FileName){
+
+-Takes input file 
+-Finds areas to add spaces
+-Organizes into columns by making an array
+
+}
+
+
+
+}

@@ -1,0 +1,13 @@
+@startuml
+
+class NameSort{
+-Takes input file
+-Counts number of names
+}
+
+NameSort --> Sorting
+
+Sorting --> Output
+
+
+@enduml
