@@ -1,0 +1,18 @@
+This program will take in a json file search it and output the data related to the name inputted
+
+
+Public Class ProductSearch{
+
+public String FindProduct(){
+
+-Take in and find json file according to name
+-Will convert json file into array
+-Will search through file according to the name of product
+-Will return all data relating to product
+-And if product is not in file will return error message
+
+}
+
+
+
+}

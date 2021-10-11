@@ -1,18 +1,17 @@
-package Ex41;
+package Assignment3.Ex41;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class OutputTest {
-
     @Test
     void countNamesTest1TrueIfPasses() {
-      Output op = new Output();
+        Output op = new Output();
 
-      int expected = 9;
-      int actual = op.CountNames();
-      assertEquals(expected,actual);
+        int expected = 9;
+        int actual = op.CountNames();
+        assertEquals(expected,actual);
     }
     @Test
     void countNamesTest2TrueIfFail() {
@@ -30,4 +29,6 @@ class OutputTest {
         int actual = op.CountNames();
         assertEquals(expected,actual);
     }
+
+
 }
