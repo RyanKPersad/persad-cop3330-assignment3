@@ -9,7 +9,7 @@ class GenerateTest {
     @Test
     void createWebsite_works() {
 
-//Use the function and save the return value.
+        //Use the function and save the return value.
         Generate g = new Generate();
 
         g.path = "src/main/java/ex43/";
@@ -19,7 +19,7 @@ class GenerateTest {
         String expected = "src/main/java/ex43/testwebsite.com";
         String actual = g.createWebsite();
 
-//Compare with the expected return value.
+        //Compare with the expected return value.
         assertEquals(expected, actual);
 
     }
@@ -28,7 +28,7 @@ class GenerateTest {
     @Test
     void createJSFolder_works() {
 
-//Use the function and save the return value.
+        //Use the function and save the return value.
         Generate g = new Generate();
 
         g.path = "src/main/java/ex43/";
@@ -38,7 +38,7 @@ class GenerateTest {
         String expected = "src/main/java/ex43/testwebsite.com/js";
         String actual = g.createJSFolder();
 
-//Compare with the expected return value.
+        //Compare with the expected return value.
         assertEquals(expected, actual);
 
     }
@@ -57,7 +57,7 @@ class GenerateTest {
         String expected = "src/main/java/ex43/testwebsite.com/css";
         String actual = g.createCSSFolder();
 
-//Compare with the expected return value.
+        //Compare with the expected return value.
         assertEquals(expected, actual);
 
     }
@@ -66,7 +66,7 @@ class GenerateTest {
     @Test
     void createHTMl_works() {
 
-//Use the function and save the return value.
+       //Use the function and save the return value.
         Generate g = new Generate();
 
         g.path = "src/main/java/ex43/";

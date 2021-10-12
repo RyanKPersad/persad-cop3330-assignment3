@@ -1,0 +1,19 @@
+This program will take in a input file with text get user input in order to find which words to replace
+and output it in a seperate file
+
+
+Public Class FindAndReplace{
+
+public String Replace(){
+
+-Take in input file
+-Turns input file into array
+-Uses map and collections to find word in text
+-Replaces with new word which is word2
+-Outputs into seperate file
+
+}
+
+
+
+}
