@@ -4,6 +4,10 @@
  */
 package Assignment3.Ex41;
 import java.io.*;
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solution
+ *  Copyright 2021 Ryan Persad
+ */
 import java.io.FileWriter;
 import java.util.*;
 
