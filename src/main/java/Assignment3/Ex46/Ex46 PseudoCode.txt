@@ -1,0 +1,26 @@
+This program will take in a json file search it and output the data related to the name inputted
+
+
+Public Class WordFrequency{
+
+public void countWordFrequency(){
+
+-Takes in file
+-Uses map to find words
+-Converts into array and splits content of array up
+-Uses regex to map and count
+-Counts using for loop
+-Implements dashes with for loops
+
+}
+public String ReadFile(){
+
+-Calls contents of file
+-Must find way to distinguish between characters
+
+}
+
+
+
+
+}

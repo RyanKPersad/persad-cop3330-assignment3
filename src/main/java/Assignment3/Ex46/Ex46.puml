@@ -1,0 +1,18 @@
+@startuml
+class Base {
++main()
+main <--- CountWordFrequency
+main <--- ReadFileIntoString
+}
+class WordFrequency{
++CountWordFrequency
++String ReadFileIntoString
+
+
+
+
+
+}
+Base <--WordFrequency
+
+@enduml
