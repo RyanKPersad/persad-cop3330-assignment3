@@ -1,5 +1,9 @@
 package Assignment3.Ex42;
 import java.nio.file.Files;
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solution
+ *  Copyright 2021 Ryan Persad
+ */
 import java.nio.file.Paths;
 import java.io.*;
 

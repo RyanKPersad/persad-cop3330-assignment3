@@ -9,8 +9,8 @@ import java.util.Scanner;
 
 
 public class WordFrequency {
-    //counts the frequency of each word in the text file and print histogram
-    static void countWordsFrequency(String str)
+    //counts the frequency of each word in the text file
+    public void countWordsFrequency(String str)
     {
         Map<String,Integer> mp=new TreeMap<>();
 
@@ -22,7 +22,7 @@ public class WordFrequency {
         {
             // Condition to check if the
             // array element is present
-            // the hash-map
+            // hash-map
             if(mp.containsKey(arr[i]))
             {
                 mp.put(arr[i], mp.get(arr[i])+1);
@@ -50,7 +50,7 @@ public class WordFrequency {
     }
 
     //read text file into a single string
-    public static String readFileIntoString(String path, Charset encoding) throws IOException
+    public String readFile(String path, Charset encoding) throws IOException
     {
         String content;
         try (Scanner scanner = new Scanner(new File(path), String.valueOf(encoding))) {

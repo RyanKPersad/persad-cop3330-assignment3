@@ -1,0 +1,37 @@
+This program will take in user input in order to generate a website layout
+
+
+Public Class Generate{
+
+public String createWebsite(){
+-Establish directory to parse data
+-User inputs name that they want for website
+-saves this name to directory
+
+}
+public String createJSSFolder(){
+-Calls directory from createWebsite
+-js is added
+-saves to directory
+
+}
+public String createCSSFolder(){
+-Calls directory from createWebsite
+-css is added
+-Saved to directory
+
+}
+public String createHTMLFolder(){
+-Calls directory from createWebsite
+-html is added
+-Saved to directory
+
+}
+
+
+}
+Public Class Base{
+main{
+-Takes user choice in if they want a css or jss folder
+}
+}
